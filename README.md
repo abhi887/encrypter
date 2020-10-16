@@ -1,6 +1,6 @@
 # encryptor
 >  Encryptor is a command line application for file encryption using AES.
-### Encrypter is a command-line application for encryption and decryption of any type of file using the AES encryption algorithm. AES is a symmetric key encryption algorithm which is next to impossible to crack if the encryption public key is not available. Encrypter provides usage of three key sizes i.e 128, 192 and 256 bits, however unless you are encrypting a military level file, key size of 128 bits is sufficient.
+### Encrypter is a command-line application for encryption and decryption of any type of file using the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption algorithm. [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) is a symmetric key encryption algorithm which is next to impossible to crack if the encryption public key is not available. Encrypter provides usage of three key sizes i.e 128, 192 and 256 bits, however unless you are encrypting a military level file, key size of 128 bits is sufficient.
 Encrypter uses *[argparser](https://www.cs.ubc.ca/~lloyd/java/doc/argparser/argparser/ArgParser.html)* for command line argument parsing.<br>
 
 ## How to run ?
