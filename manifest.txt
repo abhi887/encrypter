@@ -1,0 +1,3 @@
+Main-Class: encrypter
+Class-Path: ./argparser
+Author: Abhishek Vyas
