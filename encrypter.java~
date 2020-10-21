@@ -284,12 +284,13 @@ public class encrypter{
 			//apply a filter
 			@Override
 			public boolean accept(File dir, String name) {
-			    	return name.endsWith(".key"); 
-			}
+			    	boolean result = name.endsWith(".key") ? true : false;
+					return result;
+				}
 		});
 
 		if(fileList.length>0) return true;
 		else return false;
 	}
 
-
+}
